@@ -1,0 +1,65 @@
+<!doctype html>
+  <head>
+    <meta charset="utf-8">
+    <title>Resume</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body unresolved>
+
+    <header class="container">
+      <ul id="topContacts" class='row list-group'></ul>
+    </header>
+
+    <main class="container">
+      <section class="row">
+        <hr/>
+        <div class="col-md-12">
+          <h2>Projects</h2>
+          <a id="projectButton" class="btn">-</a>
+        </div>
+        <div class="col-md-12">
+          <div class="container">
+            <div class="row" id="project-header"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class='row'>
+        <hr/>
+        <div class="col-md-12">
+          <h2>Education</h2>
+          <a id="eduButton" class="btn">-</a>
+        </div>
+        <div class="col-md-12">
+          <div class="container">
+            <div class="row" id="education"></div>
+          </div>
+        </div>
+      </section>
+
+      <section  class="row">
+        <hr/>
+        <div class="col-md-12">
+          <h2>Work Experience</h2>
+          <a id="workButton" class="btn">-</a>
+        </div>
+        <div class="col-md-12">
+          <div class="container" id="work-header">
+            <div class="row" id="workExperience"></div>
+            <div class="row map">
+              <h3>Places I Want to Work</h3>
+              <div id="map-canvas" style="height: 300px;"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/jQuery.js"></script>
+    <script src="js/helper.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <script src="js/resumeBuilder.js"></script>
+  </body>
+</html>
